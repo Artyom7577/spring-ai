@@ -14,7 +14,7 @@ import org.json.JSONObject;
 
 public class CompanyStreamHttpUrlConnection {
     private static final String STREAM_URL = "https://stream.companieshouse.gov.uk/companies";
-    private static final String API_KEY = "893a0319-aa8a-44c9-aa1e-ef60908fcdc7";
+    private static final String API_KEY = "";
 
     public static void main(String[] args) {
         MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
